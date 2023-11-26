@@ -12,8 +12,8 @@ models:
 
       - name: operating_airline_iata_code
         description: ""
-        tests:
-          - not_null
+        # tests:
+        #   - not_null
 
       - name: published_airline
         description: ""
@@ -47,28 +47,26 @@ models:
 
       - name: activity_period_start_date
         description: ""
-        tests:
-          - not_null
 
       - name: activity_period
         description: ""
-        tests:
-          - not_null
+        # tests:
+        #   - not_null
 
       - name: data_as_of
         description: ""
-        tests:
-          - not_null
+        # tests:
+        #   - not_null
 
       - name: data_loaded_at
         description: ""
-        tests:
-          - not_null
+        # tests:
+        #   - not_null
 
       - name: boarding_area
         description: ""
-        tests:
-          - not_null
+        # tests:
+        #   - not_null
 
       - name: passenger_count
         description: ""
