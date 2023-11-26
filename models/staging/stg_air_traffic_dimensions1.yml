@@ -1,0 +1,72 @@
+version: 2
+
+models:
+  - name: stg_air_traffic
+    description: "Table decsribing every row in the table"
+    columns:
+      - name: operating_airline
+        description: ""
+        tests:
+          - not_null
+          - unique
+
+      - name: operating_airline_iata_code
+        description: ""
+        # tests:
+        #   - not_null
+
+      - name: published_airline
+        description: ""
+        tests:
+          - not_null
+
+      - name: published_airline_iata_code
+        description: ""
+        tests:
+          - not_null
+
+      - name: geo_summary
+        description: ""
+        tests:
+          - not_null
+
+      - name: geo_region
+        description: ""
+        tests:
+          - not_null
+
+      - name: price_category_code
+        description: ""
+        tests:
+          - not_null
+
+      - name: terminal
+        description: ""
+        tests:
+          - not_null
+
+      - name: activity_period_start_date
+        description: ""
+
+      - name: activity_period
+        description: ""
+        # tests:
+        #   - not_null
+
+      - name: data_as_of
+        description: ""
+        # tests:
+        #   - not_null
+
+      - name: data_loaded_at
+        description: ""
+        # tests:
+        #   - not_null
+
+      - name: boarding_area
+        description: ""
+        # tests:
+        #   - not_null
+
+      - name: passenger_count
+        description: ""

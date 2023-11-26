@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: 3rd_semester_project
+    database: ayotunde-gcp
+    tables: 
+    - name: Air_Traffic_Data

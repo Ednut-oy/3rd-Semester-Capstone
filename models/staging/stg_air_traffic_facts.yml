@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: stg_air_traffic
+    description: "Table decsribing every row in the table"
+    columns:
+      - name: activity_period
+        description: ""
+
+      - name: passenger_count
+        description: ""
+        tests:
+          - not_null
